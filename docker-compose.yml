@@ -1,0 +1,10 @@
+services:
+  lookup:
+    
+
+  server1:
+    image: chat-server
+    environment:
+      - ADDR=8081
+    ports:
+      - "8081:8081"
